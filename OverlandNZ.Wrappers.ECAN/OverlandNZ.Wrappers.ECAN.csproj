@@ -6,7 +6,7 @@
         <Nullable>enable</Nullable>
         <Title>ECAN API Service</Title>
         <Authors>overlandnz</Authors>
-        <PackageVersion>1.0.0</PackageVersion>
+        <PackageVersion>1.0.1</PackageVersion>
         <Description>C# API wrapper for ECAN's API services</Description>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <RepositoryUrl>https://github.com/overlandnz/ecan-river-wrapper</RepositoryUrl>        

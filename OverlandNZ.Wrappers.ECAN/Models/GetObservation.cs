@@ -8,5 +8,6 @@ namespace OverlandNZ.Wrappers.ECAN.Models
         public double Nztmy { get; set; }
         public string Type { get; set; }
         public string Unit { get; set; }
+        public List<Observation> Observations { get; set; }
     }
 }
