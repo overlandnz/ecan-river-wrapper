@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverlandNZ.Wrappers.ECAN", "OverlandNZ.Wrappers.ECAN\OverlandNZ.Wrappers.ECAN.csproj", "{89A2D125-C36F-44F7-B2BE-C4C450ACDF39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverlandNZ.Wrappers.ECAN.Tests", "OverlandNZ.Wrappers.ECAN.Tests\OverlandNZ.Wrappers.ECAN.Tests.csproj", "{55D6B3B5-69BC-4FAC-A050-2E5E9A6A9AFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89A2D125-C36F-44F7-B2BE-C4C450ACDF39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A2D125-C36F-44F7-B2BE-C4C450ACDF39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A2D125-C36F-44F7-B2BE-C4C450ACDF39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A2D125-C36F-44F7-B2BE-C4C450ACDF39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55D6B3B5-69BC-4FAC-A050-2E5E9A6A9AFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55D6B3B5-69BC-4FAC-A050-2E5E9A6A9AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55D6B3B5-69BC-4FAC-A050-2E5E9A6A9AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55D6B3B5-69BC-4FAC-A050-2E5E9A6A9AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
