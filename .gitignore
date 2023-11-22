@@ -155,7 +155,5 @@ $RECYCLE.BIN/
 */node_modules/*
 */wwwroot/.sass-cache/
 node_modules/
-OverlandNZ.Web/wwwroot/sass/.sass-cache/
-*.db
-BulkExporter/output/
-Lambdas/OverlandNZ.Lambas/.idea/.idea.OverlandNZ.Lambas/.idea/workspace.xml
+
+.idea/
