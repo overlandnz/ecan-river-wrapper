@@ -16,7 +16,7 @@ public class EnvironmentalObservationsClient
 
     public string GenerateQuery(DateTime observationTime)
     {
-	    return $@"
+        return $@"
 				query {{
 					getObservations {{
 						locationId
@@ -52,6 +52,17 @@ public class EnvironmentalObservationsClient
         restRequest.AddJsonBody(body);
 
         var response = await _restClient.ExecuteAsync<RiverFlowResponse>(restRequest);
+
+        if (!response.IsSuccessful)
+        {
+            throw new Exception($"Failed to get observations: {response.StatusCode} - {response.ErrorMessage}");
+        }
+
+        if (response.Data == null)
+        {
+            throw new Exception("Failed to get observations: No data returned");
+        }
+
         return response.Data.Data.GetObservations;
     }
 }
