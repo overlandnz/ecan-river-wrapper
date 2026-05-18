@@ -14,4 +14,13 @@ public class EnvironmentalObservationsClientTests
         Assert.That(query.Contains("2023-11-22 22:00:00"));
         Assert.That(query.Contains("2023-11-22 22:59:59"));
     }
+
+    [Test]
+    public void Test_That_Data_Can_Be_Retrieved()
+    {
+        var client = new EnvironmentalObservationsClient("");
+        var result = client.GetObservations(DateTime.Now.AddHours(-2)).Result;
+
+        Assert.That(result.Count > 0);
+    }
 }
